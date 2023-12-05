@@ -12,5 +12,4 @@ echo "export SDL_AUDIODRIVER=dummy" > xvfb.sh
 echo "xvfb-run ./oricutron" >> xvfb.sh
 sudo apt-get install -y xvfb libgtk-3-0 libgtk-3-dev libsdl1.2debian libsdl1.2-dev
 cp xvfb.sh ${PATH_ORICUTRON}/oricutron
-cd ${PATH_ORICUTRON}/oricutron
-chmod +x xvfb.sh
+chmod +x ${PATH_ORICUTRON}/oricutron/xvfb.sh
