@@ -14,5 +14,5 @@ sudo apt-get install -y xvfb libgtk-3-0 libgtk-3-dev libsdl1.2debian libsdl1.2-d
 cp xvfb.sh ${PATH_ORICUTRON}/oricutron
 chmod +x ${PATH_ORICUTRON}/oricutron/xvfb.sh
 mkdir ${PATH_ORICUTRON}/oricutron/sdcard/BIN/ -p
-cp SUBMIT ${PATH_ORICUTRON}/oricutron/sdcard/BIN/
+cp SDCARD/BIN/SUBMIT ${PATH_ORICUTRON}/oricutron/sdcard/BIN/
 mkdir ${PATH_ORICUTRON}/oricutron/sdcard/ETC/ -p
