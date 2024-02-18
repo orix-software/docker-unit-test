@@ -1,5 +1,13 @@
 # Oricutron to do unit test with Orix
 
+## Contains
+
+* Kernel 2024.1
+* Shell 2024.1
+* submit 2023.3
+
+## Setup
+
 Add this to github action step :
 
       - name: Unit-test with oricutron
