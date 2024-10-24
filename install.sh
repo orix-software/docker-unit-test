@@ -41,5 +41,5 @@ ls -l ${PATH_ORICUTRON}/oricutron/sdcard/
 echo copying 6b
 ls -l ${PATH_ORICUTRON}/oricutron/sdcard/ETC/
 echo copying 7
-mkdir ${PATH_ORICUTRON}/oricutron/sdcard/ETC/ -p
+mkdir -p ${PATH_ORICUTRON}/oricutron/sdcard/ETC/ 
 
