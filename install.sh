@@ -37,6 +37,9 @@ ls -l ${PATH_ORICUTRON}/oricutron/roms/shell.rom
 echo copying 5
 cp usr/share/shell/shellsd.rom ${PATH_ORICUTRON}/oricutron/roms/shell.rom
 echo copying 6
+ls -l ${PATH_ORICUTRON}/oricutron/sdcard/
+echo copying 6b
 ls -l ${PATH_ORICUTRON}/oricutron/sdcard/ETC/
 echo copying 7
 mkdir ${PATH_ORICUTRON}/oricutron/sdcard/ETC/ -p
+
