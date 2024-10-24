@@ -42,4 +42,5 @@ echo copying 6b
 ls -l ${PATH_ORICUTRON}/oricutron/sdcard/ETC/
 echo copying 7
 mkdir -p ${PATH_ORICUTRON}/oricutron/sdcard/ETC/ 
+echo Finished
 
