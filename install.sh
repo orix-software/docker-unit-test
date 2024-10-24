@@ -17,11 +17,12 @@ chmod +x ${PATH_ORICUTRON}/oricutron/xvfb.sh
 mkdir ${PATH_ORICUTRON}/oricutron/sdcard/BIN/ -p
 cp SDCARD/BIN/SUBMIT ${PATH_ORICUTRON}/oricutron/sdcard/BIN/
 wget http://repo.orix.oric.org/dists/official/tgz/6502/submit.tgz
-tar xvfz submit.tgz
+echo Untargz submit
+tar xfz submit.tgz
 cp bin/submit ${PATH_ORICUTRON}/oricutron/sdcard/BIN/SUBMIT
-
 wget http://repo.orix.oric.org/dists/official/tgz/6502/shell.tgz
-tar xvfz shell.tgz
+echo Untargz shell
+tar xfz shell.tgz
 echo "Copy Shell rom to Oricutron Pat ${PATH_ORICUTRON}/oricutron/roms/shell.rom"
 ls -l  usr/share/shell/
 echo Copying
