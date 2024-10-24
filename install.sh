@@ -24,6 +24,8 @@ wget http://repo.orix.oric.org/dists/official/tgz/6502/shell.tgz
 tar xvfz shell.tgz
 echo "Copy Shell rom to Oricutron Pat ${PATH_ORICUTRON}/oricutron/roms/shell.rom"
 ls -l  usr/share/shell/
+echo Copying
+ls -l ${PATH_ORICUTRON}/oricutron/
 cp usr/share/shell/shellsd.rom ${PATH_ORICUTRON}/oricutron/roms/shell.rom
 
 mkdir ${PATH_ORICUTRON}/oricutron/sdcard/ETC/ -p
