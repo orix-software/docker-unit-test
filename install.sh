@@ -22,7 +22,8 @@ cp bin/submit ${PATH_ORICUTRON}/oricutron/sdcard/BIN/SUBMIT
 
 wget http://repo.orix.oric.org/dists/official/tgz/6502/shell.tgz
 tar xvfz shell.tgz
-echo "Copy Shell rom to Oricutron Path"
+echo "Copy Shell rom to Oricutron Pat ${PATH_ORICUTRON}/oricutron/roms/shell.romh"
+ls -l  usr/share/shell/
 cp usr/share/shell/shellsd.rom ${PATH_ORICUTRON}/oricutron/roms/shell.rom
 
 mkdir ${PATH_ORICUTRON}/oricutron/sdcard/ETC/ -p
