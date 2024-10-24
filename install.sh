@@ -25,8 +25,11 @@ echo Untargz shell
 tar xfz shell.tgz
 echo "Copy Shell rom to Oricutron Pat ${PATH_ORICUTRON}/oricutron/roms/shell.rom"
 ls -l  usr/share/shell/
-echo Copying
+echo Copying 1
 ls -l ${PATH_ORICUTRON}/oricutron/
+echo copying 2
+ls -l ${PATH_ORICUTRON}/oricutron/roms
+echo copying 3
 cp usr/share/shell/shellsd.rom ${PATH_ORICUTRON}/oricutron/roms/shell.rom
 
 mkdir ${PATH_ORICUTRON}/oricutron/sdcard/ETC/ -p
